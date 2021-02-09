@@ -8,28 +8,46 @@ Businesses like banks that provide service have to worry about the problem of 'C
 
 ### Data Description: 
 The case study is from an open-source dataset from Kaggle. The dataset contains 10,000 sample points with 14 distinct features such as CustomerId, CreditScore, Geography, Gender, Age, Tenure, Balance, etc.
-Link to the Kaggle project site:https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
+Link to the Kaggle project site:  https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
 
 ### Data Dictionary:
 RowNumber: Row number.
+
 CustomerId: Unique identification key for different customers.
+
 Surname: Surname of the customer
+
 Credit Score: Credit score is a measure of an individual's ability to pay back the borrowed amount. It is the numerical representation of their creditworthiness. A credit score is a 3-digit number that falls in the range of 300-900, 900 being the highest.
+
 Geography: The country to which the customer belongs.
+
 Gender: The gender of the customer.
+
 Age: Age of the customer.
+
 Tenure: The period of time a customer has been associated with the bank.
+
 Balance: The account balance (the amount of money deposited in the bank account) of the customer.
+
 NumOfProducts: How many accounts, bank account affiliated products the person has.
+
 HasCrCard: Does the customer have a credit card through the bank?
+
 IsActiveMember: Subjective, but for the concept
+
 EstimatedSalary: Estimated salary of the customer.
+
 Exited: Did they leave the bank after all?
 
 ### Results:
 Train Accuracy      :86.56%
+
 Train Loss          :0.334
+
 Validation Accuracy :86.88%
+
 Validation Loss     :0.348
+
 Test Accuracy       :84.11%
+
 Test Loss           :0.386
